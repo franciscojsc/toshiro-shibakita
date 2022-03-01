@@ -1,0 +1,3 @@
+FROM webdevops/php-apache:alpine
+
+COPY ./server/ /app/
